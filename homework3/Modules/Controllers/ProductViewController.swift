@@ -34,6 +34,7 @@ class ProductViewController: UIViewController {
         collectionView.register(ProductCollectionViewCell.self, forCellWithReuseIdentifier: ProductCollectionViewCell.reuseID)
         fetchProduct()
         print("dariya")
+        print("Dariya")
     }
     
     private func addSubviews() {
